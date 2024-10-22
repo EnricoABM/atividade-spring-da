@@ -1,0 +1,16 @@
+1. Qual a classe que manipula os códigos de Status HTTP?
+    R: ResponseEntity.
+
+2. Liste dois exemplos do uso dessa classe que foram efetuados neste projeto.
+    R: A classe ResponseEntity foi utilizada na Classe ProdutoController, em todos os seus métodos para que cada um responda um código apropriado. Os métodos retornaram os seguintes códigos:
+    addProduct e updateProduct: Código 201;
+    deleteProduct: Código 204;
+    getAllProducts e getProduct:Código 200 e 404.
+
+3. Considerar que a entidade Produto possui mais dois campos: fornecedor e qtdestoque. Efetuar as devidas alterações no projeto capacitando-o a recuperar todos os dados dos produtos incluindo os dois novos campos.
+
+
+4. Otimizar mapeamento dos “endpoints” na “controller”, pois está repetitivo.
+
+
+5. Capacitar o método “getProductService” para retornar o código de status HTTP “404” caso não exista produto com o “id” fornecido
