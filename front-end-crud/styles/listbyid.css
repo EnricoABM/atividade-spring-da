@@ -1,0 +1,17 @@
+@import url('main.css');
+
+label {
+    font-size: 1.05em;
+}
+
+button {
+    margin: 10px 0 0;
+    padding: 0.4em;
+}
+
+#resultado {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}

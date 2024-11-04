@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="styles/addproduct.css">
+    <script src="scripts/addproduct.js"></script>
+    <title>App Web Consumidor API CRUD Produtos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Consumidor API</h1>
+    </header>
+    <main>
+        <h2>Cadastrar Produto</h2>
+        <br>
+        <form class="formadd" id="formadd" name="formadd" onsubmit="addProduct()">
+            <div>
+                <label>Descrição</label>
+                <input required type="text" name="descricao" id="descricao">
+                <label>Preço</label>
+                <input required type="number" name="preco" id="preco">
+                <label>Fornecedor</label>
+                <input required type="text" name="fornecedor" id="fornecedor">
+                <label>Qtd. Estoque</label>
+                <input required type="number" name="qtdestoque" id="qtdestoque">
+            </div>
+        </form>
+        <br>
+        <div id="div-buttons">
+            <a href="index.html"><button>Voltar</button></a>
+            <button required form="formadd" type="submit">Cadastrar</button>
+        </div>
+    </main>
+</body>
+
+</html>

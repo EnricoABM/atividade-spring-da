@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="styles/listbyid.css">
+    <script src="scripts/listbyid.js"></script>
+    <title>App Web Consumidor API CRUD Produtos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Consumidor API</h1>
+    </header>
+    <main>
+        <h2>Consultar por ID</h2>
+        <br>
+        <label> ID do Produto: </label>
+        <input type="number" id="idproduct" onfocus="this.select()"> <br>
+
+        <button id="mybutton-2" rule="button" onclick="consultarProduto()">Consultar Produto</button>
+
+        <br>
+        <br>
+        <h2> Dados do Produto </h2>
+        <br>
+        <div id="resultado" class="main-div">
+            <label>Descrição</label>
+            <input readonly type="text" name="txtdescricao" id="txtdescricao">
+            <label>Preço</label>
+            <input readonly type="text" name="txtpreco" id="txtpreco">
+            <label>Fornecedor</label>
+            <input readonly type="text" name="txtfornecedor" id="txtfornecedor">
+            <label>Qtd. Estoque</label>
+            <input readonly type="number" name="txtpreco" id="txtqtdestoque">
+        </div>
+        <button>
+            <a href="index.html">Voltar</a>
+        </button>
+    </main>
+</body>
+
+</html>

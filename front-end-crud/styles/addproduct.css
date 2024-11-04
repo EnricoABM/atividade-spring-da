@@ -1,0 +1,13 @@
+@import url('main.css');
+
+form div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+#div-buttons {
+    display: flex;
+    justify-content: space-between;
+}

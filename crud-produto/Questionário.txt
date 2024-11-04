@@ -1,0 +1,21 @@
+1. O que é o CORS?
+    Tecnologia para determinar uma política de compatilhamento de recursos
+    entre a máquina servidora e outras máquinas que desejam acessar seus
+    recuros através de um navagador.
+
+
+2. Qual finalidade de uma classe de configuração CORS para Spring Boot?
+    Para definir de forma clara, utilizando métodos Java, as propriedades do CORS.
+
+3. Qual a forma de configuração CORS utilizada nesta aula?
+    Utilizamos uma classe de configuração, essa utiliza a annotation @Configuration,
+    implementa a interface WebMvcConfigurer e o método addCorsMappings.
+
+4. Incluir mais dois campos entidade Produto: fornecedor e qtdestoque. Efetuar as
+devidas alterações no projeto front-end capacitando-o a recuperar todos os dados
+dos produtos incluindo os dois novos campos. Para que este desafio possa ser
+resolvido, é necessário ter resolvido o desafio correspondente no back-end.
+
+5. Escrever as especificações para todos os end-points.
+
+6. Capacitar o projeto front-end a utilizar as demais operações disponíveis no backend.

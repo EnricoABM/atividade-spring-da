@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="styles/addproduct.css">
+    <script src="scripts/updateproduct.js"></script>
+    <title>App Web Consumidor API CRUD Produtos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Consumidor API</h1>
+    </header>
+    <main>
+
+        <div id="div-form">
+            <h2>Altere os Dados</h2>
+            <br>
+            <form id='edit-form' action="">
+                <div>
+                    <label>ID</label>
+                    <input type="number" id="txtid" name="id" readonly value="">
+                    <label>Descrição</label>
+                    <input type="text" id="txtdescricao" name="descricao" value="">
+                    <label>Preço</label>
+                    <input type="number" id="txtpreco" name="preco" value="">
+                    <label>Fornecedor</label>
+                    <input type="text" id="txtfornecedor" name="fornecedor" value="">
+                    <label>Qtd. Estoque</label>
+                    <input type="number" id="txtqtdestoque" name="qtdestoque" value="">
+                </div>
+                <br>
+            </form>
+            <div id="div-buttons">
+                <a href="index.html">
+                    <button>Voltar</button>
+                </a>
+                <button type="button" name="op" onclick="updateProduct()">Atualizar</button>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="scripts/updateproduct.js"></script>
+</body>
+
+</html>
